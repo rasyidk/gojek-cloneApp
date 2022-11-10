@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.pesanan.Fragment1">
+    tools:context=".ui.pesanan.Fragment3">
 
     <LinearLayout
         android:layout_centerVertical="true"
@@ -12,19 +12,18 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_marginRight="@dimen/maindimen"
-            android:layout_marginLeft="@dimen/maindimen"
             android:layout_width="match_parent"
             android:layout_height="280dp"
-            android:src="@drawable/pesanan_ilustrasi_empty_rm"
-            />
+            android:layout_marginLeft="@dimen/maindimen"
+            android:layout_marginRight="@dimen/maindimen"
+            android:src="@drawable/pesanan_ilustrasi_empty_rm3" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/maindimen"
             android:layout_marginRight="@dimen/maindimen"
-            android:text="Belum Pernah pakai Gojek?"
+            android:text="Jadwalin pesananmu, yuk?"
             android:textStyle="bold"
             android:textAlignment="center"
             android:textSize="25dp"
@@ -33,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:text="Kamu bisa berpergian, makan, kirim barang, dan bayat ini itu, Cobain yuk!"
+            android:text="Pesananamu jadi prioritas, dapet driver bisa lebih \n cepat."
             android:textSize="15dp"
             android:layout_marginRight="@dimen/maindimen"
             android:layout_marginLeft="@dimen/maindimen"/>

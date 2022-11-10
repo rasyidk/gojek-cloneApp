@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.pesanan.Fragment1">
+    tools:context=".ui.pesanan.Fragment2">
 
     <LinearLayout
         android:layout_centerVertical="true"
@@ -16,7 +16,7 @@
             android:layout_marginLeft="@dimen/maindimen"
             android:layout_width="match_parent"
             android:layout_height="280dp"
-            android:src="@drawable/pesanan_ilustrasi_empty_rm"
+            android:src="@drawable/pesanan_ilustrasi_empty_rm2"
             />
 
         <TextView
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/maindimen"
             android:layout_marginRight="@dimen/maindimen"
-            android:text="Belum Pernah pakai Gojek?"
+            android:text="Pesan Gojek, yuk!"
             android:textStyle="bold"
             android:textAlignment="center"
             android:textSize="25dp"
@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:text="Kamu bisa berpergian, makan, kirim barang, dan bayat ini itu, Cobain yuk!"
+            android:text="Driver kami akan dengan senang hati \n membantumu."
             android:textSize="15dp"
             android:layout_marginRight="@dimen/maindimen"
             android:layout_marginLeft="@dimen/maindimen"/>

@@ -24,8 +24,7 @@ public class promoFragment extends Fragment {
         binding = FragmentPromoBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textDashboard;
-        promoViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
         return root;
     }
 

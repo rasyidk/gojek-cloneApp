@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginBottom="@dimen/maindimen"
+        android:layout_width="200dp"
+        android:layout_height="270dp"
+        android:layout_marginRight="@dimen/maindimen"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="@dimen/maindimen"
+                app:cardCornerRadius="10dp">
+
+                <androidx.coordinatorlayout.widget.CoordinatorLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/promo_menu_image"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_launcher_background" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="5dp"
+                        app:cardBackgroundColor="@color/seventh_red"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="30% Off"
+                            android:textColor="@color/white"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
+                            />
+                    </androidx.cardview.widget.CardView>
+                </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/promo_menu_dsitance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android AndroidAndroidAndroidAndroidAndroidAndroidAndroidAndroid"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="10dp"
+                    android:layout_marginBottom="5dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/promo_menu_utama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="Android AndroidAndroidAndroidAndroidAndroidAndroidAndroidAndroid"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_baseline_star_24_orange"/>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                            <TextView
+                                android:id="@+id/promo_menu_rating"
+                                android:textColor="@color/black"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:text="gopay"/>
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

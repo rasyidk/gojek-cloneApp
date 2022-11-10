@@ -24,8 +24,7 @@ public class pesananFragment extends Fragment {
         binding = FragmentPesananBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textNotifications;
-        pesananViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
         return root;
     }
 

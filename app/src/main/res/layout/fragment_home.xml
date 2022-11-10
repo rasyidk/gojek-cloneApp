@@ -578,7 +578,7 @@
                 android:layout_marginTop="@dimen/maindimen"
                 android:layout_width="match_parent"
                 app:cardCornerRadius="30dp"
-                app:cardBackgroundColor="@color/pastel_grey"
+
                 android:layout_height="60dp">
 
                 <LinearLayout

@@ -48,6 +48,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Pilihan Fitur"
@@ -72,23 +73,15 @@
                                 <RelativeLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content">
-                                    <androidx.cardview.widget.CardView
 
-                                        android:layout_width="50dp"
-                                        android:layout_height="50dp"
-                                        android:shape="ring"
-                                        app:cardElevation="0dp"
-                                        android:elevation="0dp"
-                                        app:cardCornerRadius="75dp"
-                                        app:cardBackgroundColor="@color/fourth_orange"
-                                        android:layout_centerHorizontal="true"
-                                        android:layout_centerVertical="true">
 
                                         <ImageView
-                                            android:layout_width="match_parent"
-                                            android:layout_height="match_parent"
+                                            android:layout_width="50dp"
+                                            android:layout_height="50dp"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_centerVertical="true"
                                             android:src="@drawable/chat_inbox" />
-                                    </androidx.cardview.widget.CardView>
+
                                 </RelativeLayout>
 
                                 <TextView
@@ -114,23 +107,12 @@
                                 <RelativeLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content">
-                                    <androidx.cardview.widget.CardView
-
+                                    <ImageView
                                         android:layout_width="50dp"
                                         android:layout_height="50dp"
-                                        android:shape="ring"
-                                        app:cardElevation="0dp"
-                                        android:elevation="0dp"
-                                        app:cardCornerRadius="75dp"
-                                        app:cardBackgroundColor="@color/first_green"
                                         android:layout_centerHorizontal="true"
-                                        android:layout_centerVertical="true">
-
-                                        <ImageView
-                                            android:layout_width="match_parent"
-                                            android:layout_height="match_parent"
-                                            android:src="@drawable/chat_bantuan" />
-                                    </androidx.cardview.widget.CardView>
+                                        android:layout_centerVertical="true"
+                                        android:src="@drawable/chat_bantuan" />
                                 </RelativeLayout>
 
                                 <TextView
@@ -156,23 +138,12 @@
                                 <RelativeLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content">
-                                    <androidx.cardview.widget.CardView
-
+                                    <ImageView
                                         android:layout_width="50dp"
                                         android:layout_height="50dp"
-                                        android:shape="ring"
-                                        app:cardElevation="0dp"
-                                        android:elevation="0dp"
-                                        app:cardCornerRadius="75dp"
-                                        app:cardBackgroundColor="@color/fifth_blue"
                                         android:layout_centerHorizontal="true"
-                                        android:layout_centerVertical="true">
-
-                                        <ImageView
-                                            android:layout_width="match_parent"
-                                            android:layout_height="match_parent"
-                                            android:src="@drawable/chat_pay" />
-                                    </androidx.cardview.widget.CardView>
+                                        android:layout_centerVertical="true"
+                                        android:src="@drawable/chat_bayar" />
                                 </RelativeLayout>
 
                                 <TextView
@@ -186,6 +157,7 @@
                         </RelativeLayout>
                     </LinearLayout>
                     <TextView
+                        android:textStyle="bold"
                         android:layout_marginTop="@dimen/maindimen"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -199,23 +171,12 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <androidx.cardview.widget.CardView
-
+                        <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:shape="ring"
-                            app:cardElevation="0dp"
-                            android:elevation="0dp"
-                            app:cardCornerRadius="75dp"
-                            app:cardBackgroundColor="@color/fifth_blue"
                             android:layout_centerHorizontal="true"
-                            android:layout_centerVertical="true">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:src="@drawable/chat_pay" />
-                        </androidx.cardview.widget.CardView>
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/chat_gopaylater" />
 
                         <RelativeLayout
 

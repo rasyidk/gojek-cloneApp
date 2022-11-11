@@ -143,6 +143,7 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="0"
@@ -203,6 +204,7 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="0"
@@ -263,6 +265,7 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="0"
@@ -386,6 +389,7 @@
         </androidx.cardview.widget.CardView>
 
         <TextView
+            android:textStyle="bold"
             android:layout_marginTop="@dimen/maindimen"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -584,7 +588,7 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/ic_baseline_add_24_blue"/>
+                    android:src="@drawable/logo_gopay"/>
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -593,7 +597,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
-                        android:text="GoFood"/>
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:text="Gopay"/>
                 </RelativeLayout>
 
 
@@ -602,6 +608,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
+                android:textStyle="bold"
                 android:text="Hey Si Pencari Voucher"/>
 
             <TextView
@@ -641,7 +648,7 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/ic_baseline_add_24_blue"/>
+                    android:src="@drawable/logo_gofood"/>
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -650,6 +657,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
                         android:text="GoFood"/>
                 </RelativeLayout>
 
@@ -659,12 +668,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:text="Hey Si Pencari Voucher"/>
+                android:textStyle="bold"
+                android:text="Beli makanan kesukaanmu!"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Mulai Dari Rp 6 Ribu, Dapatkan Paket Voucher Gopay dari Alfamart,McD hingga Tokopedia! Cek Sekarang"/>
+                android:text="Temukan makanan favorit dengan banyak diskon hanya di GoFood!"/>
 
             <androidx.cardview.widget.CardView
                 android:layout_marginTop="@dimen/maindimen"
